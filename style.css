@@ -73,7 +73,11 @@ body {
   font-size: 11px;
   font-style: italic;
 }
-
+hr {
+  margin: 167px auto;
+  border-top: 1px solid #fff;
+  width: 80%;
+}
 /* responsive breakpoint */
 
 /* mobile */
@@ -134,5 +138,12 @@ body {
   }
   .name-p {
     font-size: 10px;
+  }
+  hr {
+    width: 70%;
+    top: 550px;
+    left: 15%;
+    border-top: 1px solid #fff;
+    position: absolute;
   }
 }
